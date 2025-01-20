@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    color: #2c3e50;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header Styles */
+  header {
+    background: url('fitness-bg.jpg') no-repeat center center/cover;
+    color: #2ff069;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+  }
+  
+  header .header-content {
+    background: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  header .btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  
+  header .btn:hover {
+    background: #c0392b;
+  }
+  
+  /* Tips Section */
+  #tips {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .tips-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .tip {
+    background: #9cf19c;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .tip:hover {
+    transform: scale(1.05);
+  }
+  
+  .tip img {
+    max-width: 80px;
+    margin-bottom: 10px;
+  }
+  
+  /* Product Carousel */
+  #products {
+    background: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+    scroll-behavior: smooth;
+  }
+  
+  .carousel-item {
+    min-width: 200px;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carousel-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-item h3 {
+    margin: 10px 0;
+    color: #16a085;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background: #2c3e50;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  footer form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  footer form input {
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  footer form button {
+    padding: 10px 20px;
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer .resources-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+  }
+  
